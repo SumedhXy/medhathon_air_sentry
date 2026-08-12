@@ -523,7 +523,9 @@ This project is an IoT-based environmental monitoring and safety automation syst
 ## Circuit Diagram
 
 <p align="center">
-  <img src="images/circuit-diagram.png" alt="IoT Monitoring Circuit Diagram" width="850">
+ 
+   <img width="1060" height="547" alt="IOT Monitoring Circuit Diagram" src="https://github.com/user-attachments/assets/4c082fb5-f648-438e-88ea-24598f7d2e46" />
+
 </p>
 
 ## Hardware Components
