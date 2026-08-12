@@ -514,6 +514,37 @@ Real-world deployment would require:
 
 ---
 
+## Circuit Design
+
+# IoT Smart Environmental & Safety Monitoring System
+
+This project is an IoT-based environmental monitoring and safety automation system. It monitors air quality, temperature, humidity, and motion to automatically trigger active ventilation and safety mechanisms.
+
+## Circuit Diagram
+
+<p align="center">
+  <img src="images/circuit-diagram.png" alt="IoT Monitoring Circuit Diagram" width="850">
+</p>
+
+## Hardware Components
+
+The system utilizes the following components as shown in the schematic:
+
+### Core Microcontroller
+* **ESP32 NodeMCU Development Board** – Handles sensor data, logic execution, and Wi-Fi connectivity.
+
+### Sensors
+* **DHT22 / DHT11** – Measures ambient temperature and relative humidity.
+* **MQ-Series Gas Sensors (x2)** – Detects smoke, LPG, carbon monoxide, or flammable gases.
+* **PIR Motion Sensor (HC-SR501)** – Detects presence or movement in the monitored area.
+
+### Actuators & Power
+* **12V DC Cooling Fan** – Provides automated ventilation when gas or temperature thresholds are exceeded.
+* **12V Solenoid Valve / Linear Actuator** – Triggers physical safety cut-offs or locks.
+* **Power Transistors / MOSFETs & Diodes** – Used to safely switch the high-current 12V fan and solenoid from the ESP32 logic pins.
+* **DC Barrel Jack Adapter** – Supplies external 12V power to the high-draw actuators.
+---
+
 ## 👥 Team
 
 **Project:** ZAOMS + OdorTrace
